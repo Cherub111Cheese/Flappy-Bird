@@ -1,0 +1,44 @@
+body {
+	background: rgb(255,223,252);
+background: linear-gradient(90deg, rgba(255,223,252,1) 0%, rgba(246,243,186,1) 21%, rgba(247,255,237,1) 43%, rgba(255,255,255,1) 56%, rgba(211,224,252,1) 73%, rgba(255,213,254,1) 100%);
+}
+
+.canvas {
+	margin: 0 auto;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+	color: black;
+}
+.description {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+}
+
+button {
+	font-size: 30px;
+	background: rgb(0, 0, 0 / 0.4);
+	padding: 6px;
+	border-radius: 15px;
+	border: none;
+	color: blueviolets;
+}
+
+.control {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
